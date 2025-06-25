@@ -21,10 +21,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { name: "GitHub", icon: Github, href: "#" },
-    { name: "Twitter", icon: Twitter, href: "#" },
-    { name: "LinkedIn", icon: Linkedin, href: "#" },
-    { name: "Email", icon: Mail, href: "#" }
+    { name: "GitHub", icon: Github, href: "https://github.com/Atharva1903/" },
+    { name: "Twitter", icon: Twitter, href: "https://x.com/chiragferwani" },
+    { name: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/chiragferwani/" },
+    { name: "Email", icon: Mail, href: "mailto:chiragferwani@gmail.com" }
   ];
 
   return (
@@ -39,10 +39,10 @@ const Footer = () => {
           <div className="col-span-2 mb-8">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-blue-500 rounded-2xl shadow-lg"></div>
-              <span className="text-2xl font-bold">Aether</span>
+              <span className="text-2xl font-bold">unfold.dev</span>
             </div>
             <p className="text-slate-300 mb-8 max-w-sm leading-relaxed text-lg">
-              Building beautiful, modern applications with clean design and exceptional user experience.
+            Unfold is where your ideas meet the right people — swipe, connect, and start building together.
             </p>
             <div className="flex items-center gap-4">
               {socialLinks.map((social) => (
@@ -109,10 +109,10 @@ const Footer = () => {
 
         <div className="glassmorphism-dark rounded-2xl mt-16 p-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-300 text-lg">
-            © 2024 Aether. All rights reserved.
+            © 2025 Unfold.{"{dev}"} All rights reserved.
           </p>
           <p className="text-slate-300 text-lg mt-4 md:mt-0">
-            Made with <span className="text-red-400 animate-pulse">❤️</span> for modern apps
+            Made with <span className="text-red-400 animate-pulse">❤️</span>
           </p>
         </div>
       </div>

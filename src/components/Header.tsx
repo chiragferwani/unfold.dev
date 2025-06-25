@@ -19,7 +19,7 @@ const Header = () => {
             {/* Logo */}
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-blue-500 rounded-xl shadow-lg"></div>
-              <span className="text-xl font-bold text-slate-900">Aether</span>
+              <span className="text-xl font-bold text-slate-900">Unfold.{"{Dev}"}</span>
             </div>
             
             {/* Desktop Navigation */}

@@ -1,37 +1,37 @@
 
-import { Zap, Shield, Smartphone, Code, Palette, Users } from "lucide-react";
+import { GalleryHorizontalEnd, Blocks, Users, Lightbulb, Clapperboard, Shrub } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
-      icon: Zap,
-      title: "Lightning Fast",
-      description: "Optimized performance with modern build tools and efficient code architecture"
+      icon: GalleryHorizontalEnd,
+      title: "Swipe",
+      description: "Discover ideas & people that match your vibe."
     },
     {
-      icon: Shield,
-      title: "Secure & Reliable",
-      description: "Built with security best practices and enterprise-grade infrastructure"
-    },
-    {
-      icon: Smartphone,
-      title: "Mobile First",
-      description: "Responsive designs that work flawlessly across all devices and screen sizes"
-    },
-    {
-      icon: Code,
-      title: "Clean Code",
-      description: "Well-structured, maintainable code following industry best practices"
-    },
-    {
-      icon: Palette,
-      title: "Beautiful Design",
-      description: "Modern, clean interface with meticulous attention to every design detail"
+      icon: Lightbulb,
+      title: "Pitch",
+      description: "Share your vision with the right builders."
     },
     {
       icon: Users,
-      title: "User Focused",
-      description: "Built with user experience and accessibility as core design principles"
+      title: "Pair",
+      description: "Find developers, designers, and thinkers."
+    },
+    {
+      icon: Blocks,
+      title: "Build",
+      description: "Work together with tasks, chat, and updates."
+    },
+    {
+      icon: Clapperboard,
+      title: "Showcase",
+      description: "Launch and share what you’ve built."
+    },
+    {
+      icon: Shrub,
+      title: "Grow",
+      description: "Earn credibility. Track your journey."
     }
   ];
 
@@ -50,8 +50,8 @@ const Features = () => {
             Why Choose Our Platform
           </h2>
           <p className="text-xl lg:text-2xl text-slate-600 max-w-4xl mx-auto leading-relaxed font-light">
-            Everything you need to build modern, professional applications 
-            <span className="block text-slate-500">with confidence and precision</span>
+          Everything you need to turn your ideas into reality 
+            <span className="block text-slate-500">— discover collaborators, chat instantly, and build side-projects together.</span>
           </p>
         </div>
         

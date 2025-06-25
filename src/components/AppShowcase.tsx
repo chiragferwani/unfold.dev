@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Star, Heart, Share, MessageCircle, Camera, Music, ShoppingBag, MapPin, Calendar, Palette, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -11,16 +10,16 @@ const AppShowcase = () => {
     {
       id: 1,
       title: "Dashboard Overview",
-      description: "Clean, intuitive dashboard with real-time analytics and beautiful data visualization.",
-      image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=800&fit=crop",
+      description: "Explore live ideas and dev requests in one glance.",
+      image: "/public/assets/main_snaps/dash.png",
       color: "from-blue-500 to-purple-600",
       icon: Code
     },
     {
       id: 2,
       title: "Social Feed",
-      description: "Engaging social experience with smooth interactions and modern card-based design.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=800&fit=crop",
+      description: "Scroll through bold ideas shared by creators.",
+      image: "/public/assets/main_snaps/iscroll.png",
       color: "from-pink-500 to-rose-500",
       icon: Heart
     },
@@ -28,71 +27,79 @@ const AppShowcase = () => {
       id: 3,
       title: "Photo Gallery",
       description: "Stunning photo management with AI-powered organization and editing tools.",
-      image: "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=400&h=800&fit=crop",
+      image: "/public/assets/main_snaps/chatlist.png",
       color: "from-emerald-500 to-teal-500",
       icon: Camera
     },
     {
       id: 4,
-      title: "Music Player",
-      description: "Immersive audio experience with personalized playlists and spatial audio.",
-      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=800&fit=crop",
+      title: "unfold.dev",
+      description: "Where ideas find builders.",
+      image: "/public/assets/main_snaps/splash.png",
       color: "from-orange-500 to-red-500",
       icon: Music
     },
     {
       id: 5,
-      title: "Shopping Cart",
-      description: "Seamless e-commerce flow with one-tap purchasing and wishlist management.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=800&fit=crop",
+      title: "Welcome Back",
+      description: "Log in and continue building.",
+      image: "/public/assets/main_snaps/signin.png",
       color: "from-indigo-500 to-purple-500",
       icon: ShoppingBag
     },
     {
       id: 6,
-      title: "Maps & Navigation",
-      description: "Precise location services with offline maps and real-time traffic updates.",
-      image: "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=400&h=800&fit=crop",
+      title: "What Brings You Here?",
+      description: "Pitch an idea or find one to join.",
+      image: "/public/assets/main_snaps/devoridea.png",
       color: "from-green-500 to-emerald-500",
       icon: MapPin
     },
     {
       id: 7,
-      title: "Calendar View",
-      description: "Smart scheduling with AI suggestions and seamless calendar integration.",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=800&fit=crop",
+      title: "Explore Ideas",
+      description: "Discover real-world ideas looking for makers.",
+      image: "/public/assets/main_snaps/iscroll.png",
       color: "from-cyan-500 to-blue-500",
       icon: Calendar
     },
     {
       id: 8,
-      title: "Chat Interface",
-      description: "Real-time messaging with end-to-end encryption and rich media support.",
-      image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&h=800&fit=crop",
+      title: "Find Collaborators",
+      description: "Browse developer roles across live projects.",
+      image: "/public/assets/main_snaps/wscroll.png",
       color: "from-violet-500 to-purple-500",
       icon: MessageCircle
     },
     {
       id: 9,
-      title: "Design Studio",
-      description: "Professional design tools with collaborative features and cloud sync.",
-      image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=800&fit=crop",
+      title: "Share Your Idea",
+      description: "Let the world know what you're building.",
+      image: "/public/assets/main_snaps/posti.png",
       color: "from-pink-500 to-purple-500",
       icon: Palette
     },
     {
       id: 10,
-      title: "Analytics Hub",
-      description: "Comprehensive insights with interactive charts and performance metrics.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=800&fit=crop",
+      title: "Request a Developer",
+      description: "Post a role and get the right talent onboard.",
+      image: "/public/assets/main_snaps/postw.png",
       color: "from-slate-500 to-gray-600",
       icon: Star
     },
     {
       id: 11,
-      title: "Social Sharing",
-      description: "Effortless content sharing across platforms with privacy controls.",
-      image: "https://images.unsplash.com/photo-1432888622747-4eb9a8d2c5d8?w=400&h=800&fit=crop",
+      title: "Your Space",
+      description: "Track your ideas, collabs, and growth.",
+      image: "/public/assets/main_snaps/profile.png",
+      color: "from-blue-500 to-cyan-500",
+      icon: Share
+    },
+    {
+      id: 12,
+      title: "Prefrences",
+      description: "Customize your experience the way you like.",
+      image: "/public/assets/main_snaps/editprofile.png",
       color: "from-blue-500 to-cyan-500",
       icon: Share
     }
@@ -118,23 +125,23 @@ const AppShowcase = () => {
             📱 App Showcase
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Beautiful App Experiences
+            Beautiful App Experience
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Discover our collection of thoughtfully designed mobile applications, 
-            each crafted with attention to detail and user experience.
+          Discover how Unfold turns ideas into action with a smooth, 
+          swipe-first interface that makes collaboration effortless.
           </p>
         </div>
 
         {/* Featured Apps Grid */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-20">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {featuredApps.map((app, index) => (
-            <Card key={app.id} className="group overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+            <Card key={app.id} className="group overflow-x-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
               <CardContent className="p-0">
                 <div className="relative">
                   {/* Phone Mockup */}
-                  <div className="relative mx-auto w-fit p-8 bg-gradient-to-br from-slate-100 to-slate-200">
-                    <div className="relative w-64 h-[520px] bg-slate-900 rounded-[2.5rem] p-2 shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
+                  <div className="relative mx-auto w-full max-w-xs sm:max-w-sm p-4 sm:p-8 bg-gradient-to-br from-slate-100 to-slate-200">
+                    <div className="relative w-full h-[350px] sm:h-[420px] md:h-[520px] bg-slate-900 rounded-[2.5rem] p-2 shadow-2xl transform group-hover:scale-105 transition-transform duration-500">
                       <div className="w-full h-full bg-white rounded-[2rem] overflow-hidden relative">
                         <img
                           src={app.image}
@@ -146,7 +153,7 @@ const AppShowcase = () => {
                     </div>
                     
                     {/* Floating Icon */}
-                    <div className={`absolute -top-2 -right-2 w-12 h-12 bg-gradient-to-br ${app.color} rounded-2xl shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                    <div className={`absolute top-2 -right-2 w-12 h-12 bg-gradient-to-br ${app.color} rounded-2xl shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
                       <app.icon className="h-6 w-6 text-white" />
                     </div>
                   </div>
@@ -214,7 +221,7 @@ const AppShowcase = () => {
                             </div>
                           </div>
                           
-                          <div className={`absolute -top-2 -right-2 w-10 h-10 bg-gradient-to-br ${app.color} rounded-xl shadow-md flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                          <div className={`absolute top-2 right-2 w-10 h-10 bg-gradient-to-br ${app.color} rounded-xl shadow-md flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
                             <app.icon className="h-5 w-5 text-white" />
                           </div>
                         </div>
@@ -260,15 +267,17 @@ const AppShowcase = () => {
                 Ready to Create Something Amazing?
               </h3>
               <p className="text-slate-300 text-lg mb-8 max-w-2xl mx-auto">
-                Join thousands of developers who trust our platform to build beautiful, 
-                responsive applications that users love.
+                Join thousands of developers who trust our platform to turn ideas to reality.
               </p>
+              <a href="/unfold_dev.apk" download>
               <Button 
                 size="lg" 
+                
                 className="bg-white text-slate-900 hover:bg-slate-100 px-8 py-4 rounded-xl text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                Start Building Today
+                Download App Now
               </Button>
+              </a>
             </div>
           </div>
         </div>

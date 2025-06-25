@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -28,48 +27,48 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="container mx-auto px-6 lg:px-8 py-20 relative z-10">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="container w-full max-w-full mx-auto px-4 sm:px-6 md:px-8 py-8 md:py-20 relative z-10">
+        <div className="max-w-6xl w-full mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-16 items-center">
             {/* Left side - Content */}
-            <div className="space-y-8 animate-slide-up">
-              <div className="inline-flex items-center px-5 py-2.5 glassmorphism rounded-full text-sm font-medium text-slate-800 shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer">
+            <div className="space-y-4 sm:space-y-6 md:space-y-8 animate-slide-up max-w-xl w-full mx-auto">
+              {/* <div className="inline-flex items-center px-5 py-2.5 glassmorphism rounded-full text-sm font-medium text-slate-800 shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer">
                 <span className="w-2 h-2 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full mr-3 animate-pulse"></span>
                 ✨ Modern App Design
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
-              </div>
+              </div> */}
               
-              <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 leading-tight tracking-tight">
-                Beautiful Apps
+              <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-slate-900 leading-tight tracking-tight break-words">
+                Unfold.{"{Dev}"}
                 <span className="block bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">
-                  Made Simple
+                  Build What Matters
                 </span>
               </h1>
               
-              <p className="text-xl lg:text-2xl text-slate-600 leading-relaxed font-light">
-                Create stunning, responsive applications with our modern design system. 
-                <span className="block text-slate-500 mt-2">Clean, fast, and built for today's users.</span>
+              <p className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl text-slate-600 leading-relaxed font-light">
+                Unfold is where your ideas meet the right people
+                <span className="block text-slate-500 mt-2">— swipe, connect, and start building together.</span>
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button 
                   size="lg" 
-                  className="bg-gradient-to-r from-slate-900 to-slate-700 hover:from-slate-800 hover:to-slate-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-3xl transition-all duration-500 group transform hover:scale-105"
+                  className="bg-gradient-to-r  from-slate-900 to-slate-700 hover:from-slate-800 hover:to-slate-600 text-white px-8 py-7 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-3xl transition-all duration-500 group transform hover:scale-105"
                 >
-                  Get Started
+                  <a href="#features" className="no-underline">Explore</a>
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-2 transition-all duration-300" />
                 </Button>
               </div>
             </div>
 
             {/* Right side - Enhanced App Screenshot */}
-            <div className="relative animate-slide-up" style={{ animationDelay: '0.2s' }}>
-              <div className="relative max-w-sm mx-auto lg:max-w-md">
+            <div className="relative animate-slide-up mt-8 lg:mt-0 w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto" style={{ animationDelay: '0.2s' }}>
+              <div className="relative w-full">
                 {/* Enhanced phone mockup with glassmorphism */}
                 <div className="relative bg-gradient-to-br from-slate-900 to-slate-800 rounded-[2.5rem] p-2 shadow-2xl transform hover:scale-105 transition-all duration-700 hover:rotate-1">
-                  <div className="w-full h-[600px] bg-white rounded-[2rem] overflow-hidden relative">
+                  <div className="relative w-full h-[300px] xs:h-[400px] sm:h-[500px] md:h-[600px] bg-white rounded-[2rem] overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=400&h=800&fit=crop"
+                      src="/public/assets/images/aiimage.png"
                       alt="App interface preview"
                       className="w-full h-full object-cover"
                     />
