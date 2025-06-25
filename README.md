@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
+# 📱 Unfold.dev – Match Ideas with Builders
 
-## Project info
+_Unfold.dev_ is a modern collaboration platform that connects **ideators** with **developers, designers, and marketers** to build meaningful side-projects. Think of it as **Tinder for side-project teams** — swipe, match, build, and launch.
 
-**URL**: https://lovable.dev/projects/8e92f510-2cee-452a-9e4e-e8ea4ddbaab2
+---
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+### 🔁 Swipe to Match
+Swipe through trending ideas or developer requests to find your perfect match.
 
-**Use Lovable**
+### 💡 Idea Pulse
+Browse real-time ideas posted by creators across domains like AI, Health, FinTech, and EdTech.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8e92f510-2cee-452a-9e4e-e8ea4ddbaab2) and start prompting.
+### 🧑‍💻 Dev Updates
+Explore open roles posted by builders looking for collaborators — with tech stacks, roles, and reward info.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 📝 Post an Idea
+Share your vision through an elegant form. Add tags, NDA preference, validation toggle, and monetization status.
 
-**Use your preferred IDE**
+### 👨‍🔧 Request a Developer
+Need a dev or designer? Post a detailed role with skills needed, budget, and project description.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 💬 Talk Space (Chat)
+Built-in chat interface to help teams communicate, share updates, and build together seamlessly.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🧩 Dynamic Roles
+Each project can have:
+- **Ideator** (creator)
+- **Collaborator** (developer/designer/marketer)
+- **Mentor** (optional professional guidance)
 
-Follow these steps:
+### 🛠 Team Dashboard
+Includes:
+- Kanban board for tracking progress
+- Role assignment
+- File sharing
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🗳 Public Feedback
+- Upvote ideas
+- Pitch mode for investor-style validation
+- Comments & collaboration
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🏅 Gamification
+Earn badges and contributor scores for:
+- Most upvoted idea
+- Completing projects
+- Collaborating with 3+ teams
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🧠 AI Assistance *(Optional Phase)*
+- Smart idea refinement (powered by OpenAI)
+- Resume integration
+- Smart notifications: _“React dev available for your AI project!”_
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🔧 Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+| Layer        | Tech Used                             |
+|--------------|----------------------------------------|
+| **Frontend** | `Flutter`                             |
+| **Backend**  | Firebase Firestore / Realtime DB      |
+| **Auth**     | Firebase Auth                         |
+| **Assets**   | JSON-based local data (for prototype) |
+| **Icons**    | Lucide Icons / Tabler Icons           |
+| **Hosting**  | Firebase Hosting / GitHub Pages       |
+| **Optional** | OpenAI API (AI refinement), Stripe    |
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📱 Screens Included
 
-## What technologies are used for this project?
+- `Splash Screen` – App logo + punchline  
+- `Sign In / Sign Up` – Clean auth with Firebase  
+- `Idea or Dev Selector` – Choose your path  
+- `Idea Feed` – All posted ideas with filters  
+- `Dev Feed` – Developer roles with payment info  
+- `Idea Form` – Submit your idea with toggles and tags  
+- `Dev Form` – Post developer requirements  
+- `Profile Page` – Track ideas, collabs, badges  
+- `Chat Interface` – Team conversation  
+- `Settings` – Preferences  
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8e92f510-2cee-452a-9e4e-e8ea4ddbaab2) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
