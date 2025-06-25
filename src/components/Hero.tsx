@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import heroimage from '../images/aiimage.png';
 
 const Hero = () => {
   return (
@@ -68,7 +69,7 @@ const Hero = () => {
                 <div className="relative bg-gradient-to-br from-slate-900 to-slate-800 rounded-[2.5rem] p-2 shadow-2xl transform hover:scale-105 transition-all duration-700 hover:rotate-1">
                   <div className="relative w-full h-[300px] xs:h-[400px] sm:h-[500px] md:h-[600px] bg-white rounded-[2rem] overflow-hidden">
                     <img
-                      src="/src/images/aiimage.png"
+                      src={heroimage}
                       alt="App interface preview"
                       className="w-full h-full object-cover"
                     />

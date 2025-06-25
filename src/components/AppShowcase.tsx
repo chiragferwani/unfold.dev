@@ -2,6 +2,17 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight, Star, Heart, Share, MessageCircle, Camera, Music, ShoppingBag, MapPin, Calendar, Palette, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import dashImg from '../images/main_snaps/dash.png';
+import iscrollImg from '../images/main_snaps/iscroll.png';
+import chatlistImg from '../images/main_snaps/chatlist.png';
+import splashImg from '../images/main_snaps/splash.png';
+import signinImg from '../images/main_snaps/signin.png';
+import devorideaImg from '../images/main_snaps/devoridea.png';
+import wscrollImg from '../images/main_snaps/wscroll.png';
+import postiImg from '../images/main_snaps/posti.png';
+import postwImg from '../images/main_snaps/postw.png';
+import profileImg from '../images/main_snaps/profile.png';
+import editprofileImg from '../images/main_snaps/editprofile.png';
 
 const AppShowcase = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -11,7 +22,7 @@ const AppShowcase = () => {
       id: 1,
       title: "Dashboard Overview",
       description: "Explore live ideas and dev requests in one glance.",
-      image: "/src/images/main_snaps/dash.png",
+      image: dashImg,
       color: "from-blue-500 to-purple-600",
       icon: Code
     },
@@ -19,7 +30,7 @@ const AppShowcase = () => {
       id: 2,
       title: "Social Feed",
       description: "Scroll through bold ideas shared by creators.",
-      image: "/src/images/main_snaps/iscroll.png",
+      image: iscrollImg,
       color: "from-pink-500 to-rose-500",
       icon: Heart
     },
@@ -27,7 +38,7 @@ const AppShowcase = () => {
       id: 3,
       title: "Photo Gallery",
       description: "Stunning photo management with AI-powered organization and editing tools.",
-      image: "/src/images/main_snaps/chatlist.png",
+      image: chatlistImg,
       color: "from-emerald-500 to-teal-500",
       icon: Camera
     },
@@ -35,7 +46,7 @@ const AppShowcase = () => {
       id: 4,
       title: "unfold.dev",
       description: "Where ideas find builders.",
-      image: "/src/images/main_snaps/splash.png",
+      image: splashImg,
       color: "from-orange-500 to-red-500",
       icon: Music
     },
@@ -43,7 +54,7 @@ const AppShowcase = () => {
       id: 5,
       title: "Welcome Back",
       description: "Log in and continue building.",
-      image: "/src/images/main_snaps/signin.png",
+      image: signinImg,
       color: "from-indigo-500 to-purple-500",
       icon: ShoppingBag
     },
@@ -51,7 +62,7 @@ const AppShowcase = () => {
       id: 6,
       title: "What Brings You Here?",
       description: "Pitch an idea or find one to join.",
-      image: "/src/images/main_snaps/devoridea.png",
+      image: devorideaImg,
       color: "from-green-500 to-emerald-500",
       icon: MapPin
     },
@@ -59,7 +70,7 @@ const AppShowcase = () => {
       id: 7,
       title: "Explore Ideas",
       description: "Discover real-world ideas looking for makers.",
-      image: "/src/images/main_snaps/iscroll.png",
+      image: iscrollImg,
       color: "from-cyan-500 to-blue-500",
       icon: Calendar
     },
@@ -67,7 +78,7 @@ const AppShowcase = () => {
       id: 8,
       title: "Find Collaborators",
       description: "Browse developer roles across live projects.",
-      image: "/src/images/main_snaps/wscroll.png",
+      image: wscrollImg,
       color: "from-violet-500 to-purple-500",
       icon: MessageCircle
     },
@@ -75,7 +86,7 @@ const AppShowcase = () => {
       id: 9,
       title: "Share Your Idea",
       description: "Let the world know what you're building.",
-      image: "/src/images/main_snaps/posti.png",
+      image: postiImg,
       color: "from-pink-500 to-purple-500",
       icon: Palette
     },
@@ -83,7 +94,7 @@ const AppShowcase = () => {
       id: 10,
       title: "Request a Developer",
       description: "Post a role and get the right talent onboard.",
-      image: "/src/images/main_snaps/postw.png",
+      image: postwImg,
       color: "from-slate-500 to-gray-600",
       icon: Star
     },
@@ -91,7 +102,7 @@ const AppShowcase = () => {
       id: 11,
       title: "Your Space",
       description: "Track your ideas, collabs, and growth.",
-      image: "/src/images/main_snaps/profile.png",
+      image: profileImg,
       color: "from-blue-500 to-cyan-500",
       icon: Share
     },
@@ -99,7 +110,7 @@ const AppShowcase = () => {
       id: 12,
       title: "Prefrences",
       description: "Customize your experience the way you like.",
-      image: "/src/images/main_snaps/editprofile.png",
+      image: editprofileImg,
       color: "from-blue-500 to-cyan-500",
       icon: Share
     }
